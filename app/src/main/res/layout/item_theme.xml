@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:padding="7dp">
+
+    <com.sample.infolistapp.SquareImageView
+            android:id="@+id/imageThemeCover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/puzzle_sample"/>
+
+    <TextView
+            android:id="@+id/textThemeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:padding="3dp"
+            android:gravity="center"
+            android:background="@color/white"
+            android:textSize="13sp"
+            android:maxLines="2"
+            tools:text="sample review" />
+
+</LinearLayout>
