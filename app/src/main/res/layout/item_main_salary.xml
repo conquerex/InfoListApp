@@ -25,6 +25,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 app:layout_constraintTop_toTopOf="@id/imageSalaryLogo"
                 app:layout_constraintStart_toEndOf="@id/imageSalaryLogo"
                 tools:text="sample"/>
@@ -34,6 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 app:layout_constraintTop_toBottomOf="@id/textSalaryName"
                 app:layout_constraintStart_toEndOf="@id/imageSalaryLogo"
                 tools:text="sample"/>
@@ -44,6 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 app:layout_constraintTop_toBottomOf="@id/textSalaryName"
                 app:layout_constraintStart_toEndOf="@id/textSalaryRate"
                 tools:text="sample"/>
@@ -67,6 +70,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:text="평균연봉"
+                    android:textColor="@color/black"
                     android:textSize="18sp"/>
 
             <TextView
@@ -75,6 +79,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:textSize="18sp"
+                    android:textColor="@color/black"
                     tools:text="sample"/>
         </LinearLayout>
 
@@ -90,6 +95,7 @@
                     android:layout_margin="10dp"
                     android:textSize="14sp"
                     android:text="최저"
+                    android:textColor="@color/black"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintStart_toStartOf="parent"/>
 
@@ -100,6 +106,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="15dp"
                     android:textSize="14sp"
+                    android:textColor="@color/black"
                     app:layout_constraintTop_toBottomOf="@id/textSalaryLowestTitle"
                     app:layout_constraintStart_toStartOf="parent"
                     tools:text="000"/>
@@ -111,6 +118,7 @@
                     android:layout_margin="10dp"
                     android:textSize="14sp"
                     android:text="최고"
+                    android:textColor="@color/black"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"/>
 
@@ -121,6 +129,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_marginTop="15dp"
                     android:textSize="14sp"
+                    android:textColor="@color/black"
                     app:layout_constraintTop_toBottomOf="@id/textSalaryHighestTitle"
                     app:layout_constraintEnd_toEndOf="parent"
                     tools:text="999"/>

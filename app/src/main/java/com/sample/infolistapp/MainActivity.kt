@@ -1,6 +1,7 @@
 package com.sample.infolistapp
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.sample.infolistapp.mainadapter.MainListAdapter
 import com.sample.infolistapp.base.BaseDataBindingActivity
@@ -18,6 +19,14 @@ class MainActivity : BaseDataBindingActivity<ActivityMainBinding>(R.layout.activ
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        imageMainNoti.setOnClickListener {
+            Toast.makeText(this, "동작하지 않는 이벤트 입니다.", Toast.LENGTH_SHORT).show()
+        }
+
+        imageMainUser.setOnClickListener {
+            Toast.makeText(this, "동작하지 않는 이벤트 입니다.", Toast.LENGTH_SHORT).show()
+        }
 
         listAdapter.setHasStableIds(true)
         listMain.adapter = listAdapter

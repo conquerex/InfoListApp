@@ -25,6 +25,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 app:layout_constraintTop_toTopOf="@id/imageCompanyLogo"
                 app:layout_constraintStart_toEndOf="@id/imageCompanyLogo"
                 tools:text="sample"/>
@@ -34,6 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 app:layout_constraintTop_toBottomOf="@id/textCompanyName"
                 app:layout_constraintStart_toEndOf="@id/imageCompanyLogo"
                 tools:text="sample"/>
@@ -44,6 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 app:layout_constraintTop_toBottomOf="@id/textCompanyName"
                 app:layout_constraintStart_toEndOf="@id/textCompanyRate"
                 tools:text="sample"/>
@@ -56,6 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:textSize="18sp"
+            android:textColor="@color/black"
             tools:text="sample"/>
 
     <TextView
@@ -64,6 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:textSize="18sp"
+            android:textColor="@color/black"
             tools:text="sample"/>
 
     <TextView
@@ -73,6 +78,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:text="면접질문"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
     <TextView
@@ -83,6 +89,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginBottom="10dp"
             android:textSize="15sp"
+            android:textColor="@color/black"
             tools:text="sample"/>
 
     <View

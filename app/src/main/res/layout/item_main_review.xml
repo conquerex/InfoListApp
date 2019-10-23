@@ -25,6 +25,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 app:layout_constraintTop_toTopOf="@id/imageReviewLogo"
                 app:layout_constraintStart_toEndOf="@id/imageReviewLogo"
                 tools:text="sample review"/>
@@ -34,6 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 app:layout_constraintTop_toBottomOf="@id/textReviewName"
                 app:layout_constraintStart_toEndOf="@id/imageReviewLogo"
                 tools:text="sample"/>
@@ -44,6 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 app:layout_constraintTop_toBottomOf="@id/textReviewName"
                 app:layout_constraintStart_toEndOf="@id/textReviewRate"
                 tools:text="sample"/>
@@ -56,6 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:textSize="18sp"
+            android:textColor="@color/black"
             tools:text="sample"/>
 
     <LinearLayout
@@ -69,6 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="장점"
+                android:textColor="@color/black"
                 android:textSize="18sp" />
 
         <TextView
@@ -77,6 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 tools:text="sample"/>
 
     </LinearLayout>
@@ -92,6 +98,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="단점"
+                android:textColor="@color/black"
                 android:textSize="18sp" />
 
         <TextView
@@ -100,6 +107,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:textSize="18sp"
+                android:textColor="@color/black"
                 tools:text="sample"/>
 
     </LinearLayout>
